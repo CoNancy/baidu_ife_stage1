@@ -1,0 +1,12 @@
+[class *= col-]{
+  margin-top:20px;
+}
+.test{
+  background-color: #eee;
+  border: 1px solid #999;
+  height:50px;
+  color:red;
+}
+.wrap{
+  padding:0 20px 20px 20px;
+}

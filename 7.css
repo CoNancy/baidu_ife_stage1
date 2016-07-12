@@ -1,0 +1,158 @@
+*{margin:0;padding:0;}
+a{
+	text-decoration:none;
+}
+.top{
+	width:90%;
+	margin:0 auto;
+	margin-top:10px;
+	position:relative;
+}
+.top .NewWorld{
+	font-family:"黑体";
+	font-size:20px;
+	margin-left:10px;
+	position:absolute;
+	top:7px;
+}
+.top .head{
+	float:right;
+	font-family:"黑体";
+	font-size:15px;
+
+}
+.top .head td{
+	padding:10px 20px;
+}
+.top .head a{
+	color:rgb(161,161,161);
+}
+.top .head .a{
+	border-bottom:3px solid #d45d5c;
+}
+.top .head .aa{
+	color:#d45d5c;
+}
+.body1{
+	position:relative;
+}
+.body1 .a{
+	font-size:60px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:300px;
+	left:150px;
+}
+.body1 .b{
+	font-size:30px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:380px;
+	left:150px;
+}
+.body1 .c{
+	font-size:30px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:420px;
+	left:150px;
+}
+.body1 .d{
+	width:350px;
+	height:50px;
+	background:#d45d5c;
+	position:absolute;
+	top:500px;
+	left:150px;
+}
+.body1 .e{
+	font-size:30px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	padding-left:115px;
+}
+.body2 td{
+	width:500px;
+}
+.body2 img{
+	padding:30px 120px;
+}
+.body2 div{
+	margin:0 auto;
+	padding:0 60px;
+	font-family:"黑体";
+	color:rgb(161,161,161);
+	border-right:2px solid rgb(161,161,161);
+}
+.body3{
+	margin-top:50px;
+	width:100%;
+	height:300px;
+	background:#eee;
+	position:relative;
+}
+.body3 img{
+	position:absolute;
+	top:80px;
+	left:600px;
+}
+.body3 p{
+	font-size:40px;
+	color:#aaa;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:200px;
+	left:330px;
+}
+.body4{
+	position:relative;
+}
+.body4 .a{
+	position:absolute;
+	top:0;
+	opacity:0.4;
+	height:306px;
+}
+.body4 .b{
+	font-size:20px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:40px;
+	left:500px;
+}
+.body4 .c{
+	font-size:10px;
+	color:#ffffff;
+	font-family: "微软雅黑";
+	position:absolute;
+	top:80px;
+	left:450px;
+}
+.body4 .d{
+	position:absolute;
+	top:200px;
+	left:100px;
+}
+.body4 .d td{
+	padding:0 30px;
+}
+.body4 .d select{
+	text-decoration:none;
+	width:200px;
+	height:30px;
+	font-family:"黑体";
+	color:#aaa;
+}
+.body4 .d .e{
+	background:#d45d5c;
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#ffffff;
+	width:200px;
+	height:30px;
+	text-align:center;
+}

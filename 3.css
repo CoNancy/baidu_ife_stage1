@@ -1,0 +1,43 @@
+*{margin:0;padding:0;}
+.content{
+	padding:20px;
+	height:800px;
+	border:1px solid #999;
+	background: #eee;
+	margin:20px 20px;
+	font-family:"黑体";
+}
+.left{
+	padding:20px 20px 5px 20px;
+	float:left;
+	border:1px solid #999;
+	margin-right:20px;
+	background:white;
+}
+.left div{
+	float:right;
+	padding-left:10px;
+
+}
+img{
+	text-align:left;
+	height:78px;
+	width:78px;
+	border:1px solid #999;
+	margin-bottom:15px;
+}
+.center{
+	float:left;
+	width:70%;
+	border:1px solid #999;
+	padding: 20px;
+	line-height:1.5em;
+	background:white;
+}
+.right{
+	width:80px;
+	padding:20px 20px 5px 20px;
+	float:right;
+	border:1px solid #999;
+	background:white;
+}

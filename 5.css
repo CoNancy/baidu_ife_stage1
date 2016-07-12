@@ -1,0 +1,179 @@
+*{margin:0;padding:0;}
+body{
+	background:#ccc;
+	font-family: "黑体";
+	font-size:12px;
+	line-height:22px;
+}
+.left{
+	width:65%;
+	float:left;
+}
+
+.right{
+	width:375px;
+	float:left;
+}
+.head{
+	height:60px;
+	background-color:rgb(51,51,51);
+
+}
+.head img{
+	margin:10px 35px;
+}
+.head li{
+	display:inline;
+	margin-left:5px;
+	
+}
+.head a{
+	color: white;
+	font-size:14px;
+	text-decoration:none;
+}
+.head ul{
+	 float:right;
+	 margin:20px 17px;
+}
+.article1,.article2 p{
+	text-indent:2em;
+}
+.article{
+	margin:20px;
+	box-shadow:2px 1px 10px;
+	background: #fff;
+	padding:20px;
+}
+.article3 img{
+	margin:20px 0px;
+}
+.title1{
+	margin:10px 0px;
+}
+.title2{
+	margin:10px 0px;
+	color: rgb(97,102,99);
+}
+.authon{
+	margin:10px 0px;
+	color: rgb(143,136,147)
+}
+.list{
+	list-style:none;
+	text-indent:2em;	
+}
+.list a{
+	color:black;
+	text-decoration:none;
+}
+.picture{
+	display:inline-block;
+	height:100px;
+	width:100px;
+	border:1px solid #ccc;
+	padding:10px;
+	margin:10px;
+}
+.picture .small{
+	width:100px;
+	height:80px;
+	margin:0;
+}
+.picture p{
+	font-size:10px;
+	text-align:center;
+	text-indent:0em;
+}
+.article4 ol{
+	margin-left:30px;
+	list-style: none;
+	margin-bottom:20px; 
+}
+.article4 table{
+	width:100%;
+	height: 150px;
+	border:0;
+    border-collapse: collapse;
+}
+.article4 th{
+	background:rgb(51,51,51);
+	color:white;
+	text-align:left;
+	border-color:#ccc;
+}
+.article4 td{
+	border-color:#ccc;
+}
+.article4 .total{
+	background:#ccc;
+}
+
+
+.article5 h2{
+	border-left:3px solid #ccc;
+	font-size:15px;
+	text-indent:1em;
+}
+.article5 table{
+	width:100%;
+}
+.article5 tr{
+	height:30px;
+}
+.article5 table tr td:nth-child(1){
+	text-align:right;
+	vertical-align: top;
+	width:30%;
+}
+.article5 table tr td:nth-child(2){
+	text-indent:1em;
+	overflow: hidden;
+}
+.article5 .ps{
+	color:#aaa;
+}
+.article5 .input{
+	background:rgb(51,85,208);
+	width:100%;
+	border-radius:7px;
+	height:36px;
+	color:white;
+	border-style:none;
+}
+.article5 textarea{
+	display:block;
+	width:90%;
+	height:80px;
+	margin:0 auto;
+}
+select {
+  /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+  border: solid 1px #ccc;
+  width:55px;
+  /*很关键：将默认的select选择框样式清除*/
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+
+  /*在选择框的最右侧中间显示小箭头图片*/
+  background: url("./22.png") no-repeat scroll right center transparent;
+
+
+  /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+  padding-right: 14px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+.foot{
+	height:60px;
+	background:black;
+	color:white;
+	clear: both;
+}
+.foot p{
+	width:80px;
+	margin:0 auto;
+	padding-top: 20px;
+}

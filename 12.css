@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;}
+body{
+	font-family:"黑体";
+	padding:50px;
+}
+table tr:nth-of-type(2n){
+	background:#ffffff;
+}
+table tr:nth-of-type(2n+1){
+	background: #ccc;
+}
+table tr:first-of-type{
+	text-align: left;
+	background: black;
+	color: #ffffff;
+}
+table tr:nth-child(2){
+	color:red;
+}
+table tr:nth-child(3){
+	color:red;
+}
+table tr:nth-child(4){
+	color:red;
+}
+input{
+	margin:20px 45px;
+	width:100px;
+}
+input:hover{
+	border:2px solid rgb(126,138,236);
+	transform: scale(2,1.2);
+	box-shadow: 5px 5px 20px rgb(126,138,236);
+}
+.box{
+	height:300px;
+	width: 500px;
+	position:relative;
+	background:url(./666.jpg);
+}
+.box button{
+	height:30px;
+	width:20px;
+	opacity:0.8;
+	position:relative;
+	top:270px;
+	left:410px;
+	box-shadow:2px 2px 3px #bbb;
+}
+.box .a:hover{
+	animation: myfirst 5s;
+}
+@keyframes myfirst{
+	.box from {background:red}
+	to {background: blue}
+}
